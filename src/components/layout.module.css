@@ -1,20 +1,33 @@
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 1400px;
     font-family: sans-serif;
 }
 
-.heading {
-    color: rebeccapurple;
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
+.container header img {
+    width: 15%;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
 }
-  .nav-link-item {
-    padding-right: 2rem;
+.nav-link-item {
+    padding-right: 3rem;
 }
 .nav-link-text {
-    color: black;
+    color: aqua;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.heading {
+    color: rebeccapurple;
 }
