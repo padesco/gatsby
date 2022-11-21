@@ -1,17 +1,26 @@
-.container {
-    margin: auto;
-    max-width: 1400px;
+body {
     font-family: sans-serif;
+    background-color: #484a4b;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
 }
 
-.container header {
+header, footer {
+    background-color: black;
+    height: 90px;
+}
+
+.header-band {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    max-width: 1400px;
+    margin: auto;
 }
-.container header img {
-    width: 15%;
+.header-band img {
+    height: 90px;
 }
 
 .nav-links {
@@ -23,11 +32,24 @@
     padding-right: 3rem;
 }
 .nav-link-text {
-    color: aqua;
-    font-size: 32px;
+    color: white;
+    font-size: 20px;
     text-decoration: none;
 }
 
+main {
+    margin: auto;
+    max-width: 1400px;
+}
+
 .heading {
-    color: rebeccapurple;
+    color: lightblue;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
 }
