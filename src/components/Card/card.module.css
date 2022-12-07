@@ -1,0 +1,30 @@
+.card {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-title {
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+.card-title h3 {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.card ul {
+    height: 200px;
+    /*list-style: none;*/
+}

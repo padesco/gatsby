@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "service": "Création de site vitrine",
+        "image": "../images/création.webp",
+        "first": "Design",
+        "second": "Développement",
+        "third": "Responsive"
+    },
+    {
+        "id": 2,
+        "service": "Amélioration du référencement",
+        "image": "",
+        "first": "Design",
+        "second": "Développement",
+        "third": "Responsive"
+    },
+    {
+        "id": 3,
+        "service": "Maintenance et mise à jour",
+        "image": "",
+        "first": "Design",
+        "second": "Développement",
+        "third": "Responsive"
+    }
+]
