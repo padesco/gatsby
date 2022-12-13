@@ -2,7 +2,7 @@
     {
         "id": 1,
         "service": "Création de site vitrine",
-        "image": "../images/création.webp",
+        "image": "https://raw.githubusercontent.com/padesco/gatsby/test/src/images/cr%C3%A9ation.webp",
         "first": "Design",
         "second": "Développement",
         "third": "Responsive"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "service": "Amélioration du référencement",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/padesco/gatsby/test/src/images/r%C3%A9f%C3%A9rencement.webp",
         "first": "Design",
         "second": "Développement",
         "third": "Responsive"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "service": "Maintenance et mise à jour",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/padesco/gatsby/test/src/images/maintenance.webp",
         "first": "Design",
         "second": "Développement",
         "third": "Responsive"

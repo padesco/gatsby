@@ -13,7 +13,10 @@ const pageStyles = {
   maxWidth: "2000px",
 }
 const sectionStyles = {
-  margin: "30px 0",
+  margin: "20px 0",
+}
+const sectionTitle = {
+  padding: "10px",
 }
 const servicesStyles = {
   display: "flex",
@@ -31,14 +34,14 @@ const IndexPage = () => {
           <Banner image={image} text={`Création de site vitrine écologique et assistance en référencement naturel "SEO"`} />
           <div style={pageStyles}>
             <section style={sectionStyles}>
-              <h2>Eco-conception web</h2>
-              <p>Le but de l'éco-conception web est de réduire l'impact écologique et environnemental d'internet et du numérique dans sa globalité.<br />
-              Pour se faire il est nécessaire de réduire le poids de son site pour qu'il soit moins énergivore. Rassurez-vous, cela ne veut pas dire faire un site comme au début d'internet! Il s'agit simplement d'optimiser et de simplifier votre site web.<br />
-              Et bonne nouvelle cette simplification et optimisation va permettre d'améliorer l'expérience client, améliorer votre référencement naturel mais aussi de répondre au mieux aux attentes environnementales et sociétales.<br />
-              Je vous accompagnerai pour rendre votre entreprise plus attractive et visible sur Internet.<br />Mettre en place un site vitrine administrable avec Contentful, Gatsby.js et Netlify</p>
+              <h2 style={sectionTitle}>Eco-conception web</h2>
+              <p>Le but de l'éco-conception web est de réduire l'impact écologique et environnemental d'internet et du numérique dans sa globalité.<br /><br />
+              Pour se faire il est nécessaire de réduire le poids de son site pour qu'il soit moins énergivore. Rassurez-vous, cela ne veut pas dire faire un site comme au début d'internet! Il s'agit simplement d'optimiser et de simplifier votre site web.<br /><br />
+              Et bonne nouvelle tout cela va permettre d'améliorer l'expérience client, le référencement naturel mais aussi de répondre au mieux aux attentes environnementales et sociétales.<br /><br />
+              Je vous accompagnerai pour rendre votre entreprise plus attractive et visible sur Internet.<br /><br />Mettre en place un site vitrine administrable avec Contentful, Gatsby.js et Netlify</p>
             </section>
             <section style={sectionStyles}>
-              <h2>Mes Services</h2>
+              <h2 style={sectionTitle}>Mes Services</h2>
               <div style={servicesStyles}>
               {cardList.map((card) => {
                 return (

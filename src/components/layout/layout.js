@@ -6,7 +6,7 @@ import {
   copyright,
   navLinkFooter
  } from './layout.module.css'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/newlogo.png'
 
 const Layout = ({ children }) => {
   const NavLink = props => (
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         // the object returned here is passed to the
         // anchor element's props
         return {
-          style: {color: isCurrent ? "lightblue" : "white",
+          style: {color: isCurrent ? "lightgreen" : "white",
           pointerEvents: isCurrent ? "none" : "pointer"}
         };
       }}
